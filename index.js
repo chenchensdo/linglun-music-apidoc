@@ -35,7 +35,7 @@ const options = {
     },
     servers: [
       {
-        url: "https://nodejs-swagger-api.vercel.app/",
+        url: "https://linglun-music-apidoc.vercel.app/api-docs",
         description: "伶伦创音API文档",
       },
     ],
