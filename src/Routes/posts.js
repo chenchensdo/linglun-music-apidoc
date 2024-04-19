@@ -56,6 +56,9 @@ postRouter.use(bodyParser.json()); // to use body object in requests
  *         - name
  *         - loverName
  *         - style
+ *         - description
+ *         - webhook
+ *         - resultJson
  *       properties:
  *         name:
  *           type: string
@@ -96,6 +99,13 @@ postRouter.use(bodyParser.json()); // to use body object in requests
  *         - name
  *         - loverName
  *         - style
+ *         - meetDate
+ *         - marryDate
+ *         - marryPlace
+ *         - marryMode
+ *         - description
+ *         - webhook
+ *         - resultJson
  *       properties:
  *         name:
  *           type: string
@@ -150,8 +160,11 @@ postRouter.use(bodyParser.json()); // to use body object in requests
  *       type: object
  *       required:
  *         - name
- *         - loverName
+ *         - birthDate
  *         - style
+ *         - description
+ *         - webhook
+ *         - resultJson
  *       properties:
  *         name:
  *           type: string
