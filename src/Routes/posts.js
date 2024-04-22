@@ -99,8 +99,6 @@ postRouter.use(bodyParser.json()); // to use body object in requests
  *         - name
  *         - loverName
  *         - style
- *         - meetDate
- *         - marryDate
  *         - marryPlace
  *         - marryMode
  *         - description
@@ -113,12 +111,6 @@ postRouter.use(bodyParser.json()); // to use body object in requests
  *         loverName:
  *           type: string
  *           description: 新娘名字
- *         meetDate:
- *           type: date
- *           description: 第一次心动日期
- *         marryDate:
- *           type: date
- *           description: 婚礼日期
  *         marryPlace:
  *           type: string
  *           description: 婚礼场所
@@ -141,8 +133,6 @@ postRouter.use(bodyParser.json()); // to use body object in requests
  *       example:
  *         name: 武大郎
  *         loverName: 潘金莲
- *         meetDate: 2010-01-01
- *         marryDate: 2024-01-01
  *         marryPlace: 广场上
  *         marryMode: 中式
  *         style: Pop Music
@@ -160,7 +150,6 @@ postRouter.use(bodyParser.json()); // to use body object in requests
  *       type: object
  *       required:
  *         - name
- *         - birthDate
  *         - style
  *         - description
  *         - webhook
@@ -169,9 +158,6 @@ postRouter.use(bodyParser.json()); // to use body object in requests
  *         name:
  *           type: string
  *           description: 男生名字
- *         birthDate:
- *           type: date
- *           description: 出生日期
  *         style:
  *           type: string
  *           description: 歌曲风格
@@ -187,7 +173,6 @@ postRouter.use(bodyParser.json()); // to use body object in requests
  *           description: 业务处理字段，可以是id，也可以是一段任何内容，用于回调过程中处理业务逻辑
  *       example:
  *         name: 武大郎
- *         birthDate: 2020-10-22
  *         style: Pop Music
  *         description: 秽土转生
  *         webhook: https://sora12306.com/music/system/music/webhook
