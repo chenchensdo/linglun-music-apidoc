@@ -157,7 +157,7 @@ postRouter.use(bodyParser.json()); // to use body object in requests
  *       properties:
  *         name:
  *           type: string
- *           description: 男生名字
+ *           description: 寿星名字
  *         style:
  *           type: string
  *           description: 歌曲风格
